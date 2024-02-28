@@ -1,0 +1,73 @@
+.bg-container {
+  background-image: linear-gradient(to bottom, #0053b5, #00a7f3);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align items horizontally */
+}
+
+.main-heading {
+  font-family: "Roboto";
+  color: #ffffff;
+  padding-top: 25px;
+}
+
+.image {
+  width: 20%;
+  margin: 5px;
+  margin-top: 35px;
+}
+
+.input {
+  height: 29px;
+  width: 150%;
+  border-radius: 5px;
+  border-width: 0px;
+  font-family: "Bree serif";
+  padding: 9px;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 9px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.submit-button {
+  background-color: #3b4856;
+  color: white;
+  height: 37px;
+  width: 120px;
+  margin-top: 15px;
+  border-width: 0px;
+  border-radius: 5px;
+  font-size: 14px;
+  border-width: bold;
+}
+
+/* For screens up to 600px wide (typical mobile screens) */
+@media (max-width: 600px) {
+  .image {
+    width: 40%; /* Adjust the width of the image */
+    margin-top: 20px; /* Adjust margin top for the image */
+  }
+
+  .input {
+    width: 100%; /* Make inputs full width */
+    margin: 5px 0; /* Adjust margins */
+  }
+
+  .submit-button {
+    width: 100%; /* Make button full width */
+    margin-top: 10px; /* Adjust margin top */
+  }
+}
+.error-msg {
+  color: red;
+}

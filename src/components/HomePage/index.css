@@ -1,0 +1,68 @@
+.home-container {
+  background-color: #00a7f3;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.nav-bar {
+  background-color: lightblue;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon {
+  font-size: 32px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.card-carousel {
+  background-color: #39837b;
+  width: 50%;
+  height: 40%;
+  border-radius: 15px;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  padding-top: 35px;
+}
+.name {
+  color: #ffffff;
+  margin-left: 50px;
+  font-family: "Bree serif";
+}
+.description-container {
+  background-color: #ffffff;
+  width: 80%;
+  height: 50%;
+  margin: 25px;
+  border-radius: 5px;
+  align-self: center;
+}
+.about-movies {
+  color: #3b4856;
+  margin: 5px;
+  font-size: 25px;
+  margin: 25px;
+}
+.description {
+  margin: 5px;
+  font-size: 25px;
+  margin-top: 15px;
+  margin: 25px;
+  color: #3b4856;
+}
+.logout-button {
+  background-color: #3b4856;
+  color: white;
+  height: 37px;
+  width: 120px;
+  margin-top: 15px;
+  border-width: 0px;
+  border-radius: 5px;
+  font-size: 14px;
+  border-width: bold;
+  margin: 25px;
+}
